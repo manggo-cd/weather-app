@@ -1,3 +1,4 @@
+console.log('app.ts script loaded');   // manual error checking
 interface WeatherInfo {
     description: string;
     icon: string;
