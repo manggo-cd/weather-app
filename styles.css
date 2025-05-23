@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centering */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: #f0f4f8;
+}
+
+.app {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+#city-form {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#city-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc
+}
+
+#city-form button {
+    padding: 0.5rem;
+    border: none;
+    background: #007acc;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#weather-output {
+  text-align: center;
+}
