@@ -12,7 +12,7 @@ console.log('app.ts script loaded'); // manual error checking
 const form = document.getElementById('city-form');
 const input = document.getElementById('city-input');
 const output = document.getElementById('weather-output');
-const API_KEY = '***REMOVED***';
+const API_KEY = '2baa968064fe0b3212dfa6b537128766';
 form.addEventListener('submit', (e) => __awaiter(void 0, void 0, void 0, function* () {
     e.preventDefault();
     const city = input.value.trim();
