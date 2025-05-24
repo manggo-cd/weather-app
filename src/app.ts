@@ -1,4 +1,6 @@
-console.log('app.ts script loaded');   // manual error checking
+// src/app.ts
+import { API_KEY } from './config';
+   // manual error checking
 interface WeatherInfo {
     description: string;
     icon: string;
@@ -19,7 +21,6 @@ interface OpenWeatherResponse {
 const form = document.getElementById('city-form') as HTMLFormElement;
 const input = document.getElementById('city-input') as HTMLInputElement;
 const output = document.getElementById('weather-output') as HTMLDivElement;
-const API_KEY = '***REMOVED***';
 
 
 
